@@ -31,11 +31,16 @@ Once running:
 - MySQL is exposed on host port `3308` (maps to container port `3306`)
 
 # Screenshots
-![Ticket Open Page](screenshots/Ticket_Open_Page.PNG)
+![Ticket Open Page](screenshots/Ticket_Open_Page.png)
 #
-![Ticket Open Page](screenshots/Login_Page.PNG)
+![Login Page](screenshots/Login_Page.png)
 #
-![Ticket Open Page](screenshots/Ticket_Status_Check_Page.PNG)
+![Ticket Status Check Page](screenshots/Ticket_Status_Check_Page.png)
+#
+![Ticket Open Email](screenshots/TicketOpenEmail.png)
+#
+![Agent Ticket View Page](screenshots/Agent_Ticket_View.png)
+
 
 
 
