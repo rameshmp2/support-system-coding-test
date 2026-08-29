@@ -49,6 +49,30 @@ services:
     networks:
       - support-network
 
+  mailpit:
+    image: axllent/mailpit:latest
+    container_name: support-system-mailpit
+    ports:
+      - "1025:1025"   # SMTP
+      - "8025:8025"   # web UI
+    networks:
+      - support-network
+
+  # Queue worker (processes queued mail/jobs from the `jobs` table)
+  queue:
+    image: support-system-app:latest
+    container_name: support-system-queue
+    restart: unless-stopped
+    tty: true
+    volumes:
+      - .:/var/www
+    networks:
+      - support-network
+    depends_on:
+      - app
+      - db
+    command: php artisan queue:work --sleep=3 --tries=3
+
 networks:
   support-network:
     driver: bridge
