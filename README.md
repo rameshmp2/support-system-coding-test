@@ -1,8 +1,21 @@
+# Declaration
+I confirm this submission was written by me without generative AI assistance. Any copied snippets/libraries are credited below.
+
+# Some codes gets by laravel offical documentaion
+https://laravel.com/framework/docs/installation
+
+# Docker setup refferance site
+https://docs.docker.com/guides/laravel/
+
+# Frontend design used tailwindcss
+- css styles get from offical site.
+https://tailwindcss.com/docs/installation/using-vite
+
+
 # support-system-coding-test
 PHP/Web Coding Test. This app build for interview.
 
 ## Setup
-
 
 ```bash
 # 1. Copy the environment file
@@ -40,19 +53,6 @@ Once running:
 ![Ticket Open Email](screenshots/TicketOpenEmail.png)
 #
 ![Agent Ticket View Page](screenshots/Agent_Ticket_View.png)
-
-
-
-
-# Some codes gets by laravel offical documentaion
-https://laravel.com/framework/docs/installation
-
-# Docker setup refferance site
-https://docs.docker.com/guides/laravel/
-
-# Frontend design used tailwindcss
-- css styles get from offical site.
-https://tailwindcss.com/docs/installation/using-vite
 
 # Artisan Commands That Used For Develope This App 
 
